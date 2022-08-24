@@ -8,7 +8,6 @@
 - Make a useful README
 - Dragging doesn't work on mobile devices.
 - Some cells are not toggled when mouse movements are too fast.
-- Add header documentation.
 - Pointer events are triggered when opening the context menu, which is undesirable.
 - The default settings on the landing page are not ideal for the Elementary Cellular Automaton demo.
 - The help menu and landing page could be nicer to look at, offer more features, etc.
