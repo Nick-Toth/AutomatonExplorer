@@ -40,7 +40,7 @@ function Redirect(props) {
   // Note that the choice of rows and cols ≤ 128 is arbitrary, but the ui is pretty slow for much larger values.
   function entriesAreValid()
   {
-    if(props.path === '\\eca') {
+    if(props.path === '/eca') {
       if (isNaN(rows) || isNaN(cols) || rows < 1 || cols < 1 || rows > 255 || cols > 128)
       { alert("Oops! At least one entry is not valid. Please make sure that your rule entry is an integer between 0 and 255, and your column entry is an integer between 1 and 128."); return false }
     }
